@@ -14,6 +14,8 @@ public:
     virtual bool update();
     virtual void draw();
 
+	bool CheckResult(FMOD_RESULT);
+
     FlyCamera m_camera;
 	FMOD::System* m_FMSystem;
 };
